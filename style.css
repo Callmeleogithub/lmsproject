@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url(img/book1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.logo {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo img {
+  width: 70px;
+  /* border: 2px solid white; */
+  border-radius: 18px;
+  /* box-shadow: 0 0 20px white; */
+}
+
+.navbar {
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  justify-content: space-between;
+  top: 0;
+  cursor: pointer;
+  backdrop-filter: blur(20px);
+  background-color: transparent;
+  border-bottom: 2px solid white;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+}
+.nav-list li {
+  list-style: none;
+  padding: 2px 29px;
+  margin: 4px;
+}
+.another {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-list li a {
+  text-decoration: none;
+  color: white;
+}
+.nav-list li a:hover {
+  color: grey;
+}
+
+.rightNav {
+  width: 69%;
+  text-align: right;
+  padding: 2px 9px;
+}
+
+#search {
+  padding: 5px;
+  font-size: 15px;
+  border: 2px solid grey;
+  border-radius: 9px;
+}
+.site-header {
+  background-color: transparent;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.5);
+}
+
+
+.firstSection {
+  height: 100vh;
+}
+.container{
+  max-width: 1000px;
+  margin: 0 auto;
+
+}
+.box-main {
+  padding: 50px 0;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+  color: white;
+  font-family: "serif";
+}
+.firstHalf {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.secondHalf {
+  width: 30%;
+}
+.secondHalf img {
+  width: 50vh;
+  border: 2px solid white;
+  border-radius: 15px;
+  display: block;
+  margin: auto;
+}
+.text-big {
+  font-size: 40px;
+  margin-bottom: 30px;
+  font-weight: 700;
+  display: block;
+}
+.text-small {
+  font-size: 20px;
+}
